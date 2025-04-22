@@ -40,15 +40,15 @@ Khi mở dự án, bạn sẽ thấy giao diện chính gồm **XML Layouts** v�
 ## 🎨 Giao diện ứng dụng
 
 ### Màn hình chính
-![Home Screen](images/quiz_home.png)
+![Home Screen](images/5.png)
 - Lựa chọn chủ đề quiz
 
 ### Màn hình làm bài
-![Quiz Screen](images/quiz_play.png)
+![Quiz Screen](images/6.png)
 - Hiển thị câu hỏi và đáp án
 
 ### Màn hình kết quả
-![Result Screen](images/quiz_result.png)
+![Result Screen](images/7.png)
 - Thống kê đáp án đúng/sai
 - Điểm số và xếp hạng
 ## 🛠️ 7. Cách chạy ứng dụng
