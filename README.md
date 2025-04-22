@@ -1,4 +1,4 @@
-# 📱 Android App: Ứng dụng Android hệ thống đăng nhập
+# 🎯 Ứng dụng Quiz Android
 
 Ứng dụng này là một ví dụ về hệ thống đăng nhập và đăng ký đơn giản cho Android. Người dùng có thể đăng nhập vào ứng dụng bằng tài khoản đã đăng ký hoặc tạo tài khoản mới. Sau khi đăng nhập thành công, người dùng sẽ được chuyển đến màn hình trang chủ.
 
@@ -8,7 +8,7 @@
 ---
 
 ##  🎬 Xem tại Youtube
-[![Watch the video](https://img.youtube.com/vi/vxsCh-v55zc/maxresdefault.jpg)](https://youtube.com/shorts/vxsCh-v55zc)
+[![Watch the video](https://img.youtube.com/vi/ilhM-8aTlvk/maxresdefault.jpg)](https://youtube.com/shorts/ilhM-8aTlvk)
 
 
 
@@ -37,36 +37,25 @@ Khi mở dự án, bạn sẽ thấy giao diện chính gồm **XML Layouts** v�
 ![Android Studio Coding](images/4.png)
 
 ---
+## 🎨 Giao diện ứng dụng
 
-## 🎨 5. Thiết kế giao diện (Layout)
+### Màn hình chính
+![Home Screen](images/quiz_home.png)
+- Lựa chọn chủ đề quiz
 
-### 🔹 Main Activity
-Màn hình chính hiển thị thông tin các field cho đăng nhập
-![Main Activity UI](images/5.png)
----
-### 🔹 Register Activity
-Màn hình chính hiển thị thông tin các field cho đăng nhập
-![Main Activity UI](images/6.png)
----
-### 🔹 Home Activity
-Màn hình chính hiển thị thông tin các field cho đăng nhập
-![Main Activity UI](images/7.png)
----
-## 🔍 Tính năng
+### Màn hình làm bài
+![Quiz Screen](images/quiz_play.png)
+- Hiển thị câu hỏi và đáp án
 
-- **Đăng nhập**: Người dùng có thể đăng nhập bằng tài khoản đã có sẵn. Nếu đăng nhập thành công, người dùng sẽ được chuyển đến màn hình **HomeActivity**.
-- **Đăng ký**: Người dùng có thể tạo tài khoản mới. Mật khẩu phải được xác nhận để đảm bảo tính chính xác.
-- **Đăng xuất**: Sau khi đăng nhập, người dùng có thể đăng xuất và quay lại màn hình đăng nhập.
-## ⚙️ 6. Cách hoạt động
-1. **MainActivity**: Đây là màn hình đăng nhập, nơi người dùng nhập tên đăng nhập và mật khẩu. Nếu thông tin chính xác, người dùng sẽ được chuyển đến màn hình **HomeActivity**.
-2. **RegisterActivity**: Màn hình đăng ký tài khoản, nơi người dùng có thể tạo tài khoản mới nếu chưa có.
-3. **HomeActivity**: Màn hình chính sau khi người dùng đăng nhập thành công.
----
+### Màn hình kết quả
+![Result Screen](images/quiz_result.png)
+- Thống kê đáp án đúng/sai
+- Điểm số và xếp hạng
 ## 🛠️ 7. Cách chạy ứng dụng
 
 1. Clone repo này về máy:
    ```sh
-   git clone https://github.com/Trung78z/AndroidPractice3Authencation.git
+   git clone https://github.com/Trung78z/AndroidPractice4AppQuiz.git
    ```
 2. Mở **Android Studio** và import project.
 3. Chạy ứng dụng trên **Emulator** hoặc **thiết bị thật**.
