@@ -17,12 +17,11 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginBottom="16dp"
-        android:contentDescription="Quiz Logo"
-        android:src="@drawable/quiz"
         android:background="@drawable/rounded_corners"
+        android:clipToOutline="true"
+        android:contentDescription="Quiz Logo"
         android:scaleType="centerCrop"
-        android:clipToOutline="true" /> <!-- This will clip the image to the rounded corners -->
-
+        android:src="@drawable/quiz" />
 
 
     <TextView
