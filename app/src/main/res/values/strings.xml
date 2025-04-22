@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="take_quiz">Take Quiz</string>
+    <string name="login_facebook">f Login</string>
+    <string name="login_google">g+ Login</string>
+    <string name="quiz_logo">Quiz Logo</string>
+</resources>
