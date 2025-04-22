@@ -11,7 +11,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.hcmus.quizgame.MainActivity;
 import com.hcmus.quizgame.R;
 
 public class HomeActivity extends AppCompatActivity {

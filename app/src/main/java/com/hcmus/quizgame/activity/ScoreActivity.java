@@ -1,5 +1,6 @@
 package com.hcmus.quizgame.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
@@ -12,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.hcmus.quizgame.R;
 
 public class ScoreActivity extends AppCompatActivity {
+    private ImageView btnBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +26,11 @@ public class ScoreActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+        btnBack = findViewById(R.id.btnBack);
+        btnBack.setOnClickListener(v -> {
+            startActivity(new Intent(ScoreActivity.this, HomeActivity.class));
+            finish();
+        });
     }
 
 }
